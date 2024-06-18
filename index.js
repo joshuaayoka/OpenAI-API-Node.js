@@ -1,6 +1,6 @@
 const openAI = require("openai");
 
-const client = new openAI.OpenAI({apiKey: "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"});
+const client = new openAI.OpenAI({apiKey: "ENTER-YOUR-API-KEY-HERE"});
 
 async function runPrompt() {
     try {
